@@ -85,7 +85,7 @@ function install() {
     process.exit(1);
   }
 
-  let url = 'https://r.qin.wf/' +
+  let url = 'https://github.com/qinwf-nuan/meta/raw/master/' +
             `libtensorflow-${libType}-${libPlatform}-x86_64-${libVersion}.tar.gz`;
   let tarPath = path.join(os.tmpdir(), 'tensorflow.tar.gz');
   let installPath = path.join(__dirname, '..');
